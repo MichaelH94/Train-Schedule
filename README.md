@@ -1,2 +1,3 @@
-# Train-Schedule
-Firebase assignment for KU
+This is an assignment for the KU coding bootcamp.
+
+This is a simple web based app designed to demonstrate storage through Firebase database storage. It was built using HTML, BootStrap CSS, JavaScript (using jQuery, moment.js & firebase.js). Users enter the information for a Train: name, destination, first train departure and the frequency of the train. The information is then sent to firebase. Then, the data is used to calculate the arrival of the next train and how many minutes away it is. This is done with moment.js. Finally, using jQuery, the new data is printed to the table and the initial form is cleared. All calculations are handled through a submit button, while the firebase information is pulled through a standard firebase listener event.
